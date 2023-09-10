@@ -13,6 +13,7 @@ export type InputSelectProps<TItem> = {
 export type DropdownPosition = {
   top: number
   left: number
+  
 }
 
 export type InputSelectOnChange<TItem> = (selectedItem: TItem | null) => void
